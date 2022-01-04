@@ -1,0 +1,294 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    margin-bottom: 80px;
+}
+
+
+.content-box {
+    margin-bottom: 20px;
+}
+
+.content-box h2 {
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.content-item {
+    list-style: none;
+    width: 154px;
+    height: 154px;
+    
+}
+
+.content-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-list p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.content-list p:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.sizebar-top {
+}
+
+.sizebar-top__title {
+    display:flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sizebar-top h2 {
+    color: var(--primary-color);
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.sizebar-top__title i {
+    color: rgb(143, 136, 136);
+    font-size: 35px
+}
+
+.sizebar-top__button {
+    display: flex;
+    width: 100%;
+    height: 32px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.sizebar-top__button>div {
+    width: 33.33333%;
+}
+
+.sizebar-top__button>div>button:hover {
+    background-color: #e75c3c;
+    color: #fff;
+}
+
+
+
+.sizebar-top__button>div>button {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    border: none;
+    
+}
+
+.sizebar-top__button div:first-child button {
+    background-color: #e75c3c;
+    color: #fff;
+}
+.sizebar-top__content {
+
+}
+
+.sizebar-top__content--top1 {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.content-top1__left {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.content-top1__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-top1__left span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 35px;
+    height: 35px;
+    background: #e75c3c;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height:35px
+}
+
+.content-top1__right {
+    margin-left: 10px;
+}
+
+.content-item__right p,
+.content-top1__right p {
+    font-size: 14px;
+}
+
+.content-top2__left {
+    width: 300px;
+    height: 170px;
+    position: relative;
+}
+.content-top2__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content-top2__left span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #e75c3c;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height:50px
+}
+.content-top2__right {
+    margin-left: 10px;
+}
+.content-item__right p,
+.content-top2__right p {
+    font-size: 14px;
+}
+.content-top3__left {
+    width: 110px;
+    height: 62px;
+    position: relative;
+}
+.content-top3__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content-top3__left span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: none;
+    color: rgb(233, 240, 233);
+    font-size: 20px;
+    text-align: center;
+    line-height:30px
+}
+.content-top3__right {
+    margin-left: 10px;
+}
+.content-item__right p,
+.content-top3__right p {
+    font-size: 14px;
+}
+
+
+.footer-body__body li,
+.content-item__right span,
+.content-top1__right span {
+    font-size: 12px;
+    opacity: 0.8
+}
+
+.sizebar-top__content--list {
+
+}
+
+.sizebar-top__content--item {
+    padding: 10px 0;
+    list-style: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.sizebar-top__content--item:first-child h4 {
+    color: #64bc9c;
+
+}
+
+.sizebar-top__content--item:nth-child(2) h4 {
+    color: #f39c12
+}
+
+.content-item__left h4 {
+    font-size: 20px;
+    line-height: 46px;
+    padding-left: 11px;
+    font-weight: 400;
+}
+
+.content-margin {
+    margin-bottom: 20px;
+}
+
+.name_singer {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+}
+
+.athor {
+   
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    width: 152px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.playbuton {
+    position: relative;
+}
+
+.playbuton img {
+    transition: 0.5s
+}
+
+.playbuton:hover img {
+    opacity: 0.7;
+}
+
+.playbuton div {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.playbuton div i {
+    font-size: 55px;
+    color: #fff;
+    opacity: 0;
+    display: none;
+    transition: 0.5s;
+
+}
+
+.playbuton:hover div i{
+    display: block;
+    opacity: 1;
+}
+
