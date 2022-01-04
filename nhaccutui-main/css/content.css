@@ -140,6 +140,68 @@
     font-size: 14px;
 }
 
+.content-top2__left {
+    width: 300px;
+    height: 170px;
+    position: relative;
+}
+.content-top2__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content-top2__left span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background: #e75c3c;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height:50px
+}
+.content-top2__right {
+    margin-left: 10px;
+}
+.content-item__right p,
+.content-top2__right p {
+    font-size: 14px;
+}
+.content-top3__left {
+    width: 110px;
+    height: 62px;
+    position: relative;
+}
+.content-top3__left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.content-top3__left span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: none;
+    color: rgb(233, 240, 233);
+    font-size: 20px;
+    text-align: center;
+    line-height:30px
+}
+.content-top3__right {
+    margin-left: 10px;
+}
+.content-item__right p,
+.content-top3__right p {
+    font-size: 14px;
+}
+
+
 .footer-body__body li,
 .content-item__right span,
 .content-top1__right span {
@@ -197,42 +259,36 @@
 
 .playbuton {
     position: relative;
-    
+}
+
+.playbuton img {
+    transition: 0.5s
+}
+
+.playbuton:hover img {
+    opacity: 0.7;
 }
 
 .playbuton div {
     position: absolute;
     z-index: 2;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
-    opacity: 0;
-    transition: all linear 0.5s ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
 }
+
 .playbuton div i {
     font-size: 55px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;  
-}
-.playbuton span {
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    color: #fff;
     opacity: 0;
-    background: rgba(0,0,0,0.4); 
     display: none;
-    transition: all linear 0.5s ;
+    transition: 0.5s;
+
 }
-.playbuton:hover span,
-.playbuton:hover div {
+
+.playbuton:hover div i{
     display: block;
-  
+    opacity: 1;
 }
 
