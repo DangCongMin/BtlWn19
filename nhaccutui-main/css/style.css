@@ -16,13 +16,13 @@ body {
     
 }
 
-.app {
-    width: 1200px;
+.app { 
     margin: auto;
+
 }
 
 .header {
-    
+    justify-content: center !important ;
     display: flex;
     height: 55px;
     line-height: 55px;
@@ -219,7 +219,15 @@ body {
 
 .linktop {
     text-decoration: none;
-    color: black;
+    color: #2daaed;
 }
+/* dung chung */
+
+.full {
+    width: 100%;
+}
+
+
+
 
 
