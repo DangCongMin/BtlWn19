@@ -34,6 +34,13 @@
     object-fit: cover;
     object-position: center;
 }
+.content-item1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 
 .content-list p {
     font-size: 14px;
