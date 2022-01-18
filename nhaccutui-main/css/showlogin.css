@@ -1,0 +1,117 @@
+@keyframes modalFadein {
+    from {
+        transform: translateY(-150px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.full-width {
+    width: 100%;
+}
+
+.a-modal {
+    text-decoration: none;
+    color: #0c8eaf
+}
+
+.go-up {
+    background: #2daaed url(https://stc-id.nixcdn.com/v11/images/icon-repeat.png) 5px -1898px no-repeat;
+    position: absolute;
+    transform: rotate(-90deg);
+    display: block;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    display: none;
+}
+
+.go-up:hover {
+    opacity: 0.7;
+}
+
+.login-on {
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    background-color: #2daaed;
+    top: 70%;
+    right: -50px;
+    font-size: 14px;
+    transform: rotate(90deg);
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+}
+
+.login-on>.login-on__icon {
+    font-size: 30px;
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.modal {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(34, 34, 34, 0.6);
+    position: fixed;
+    z-index: 999999;
+    display: none;
+}
+
+.tb-login {
+    width: 800px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.modal-header>h1 {
+    font-size: 18px;
+    padding: 8px 16px;
+}
+
+.modal-header>span {
+    font-size: 25px;
+    padding: 0px 10px;
+    margin-top: 4px
+}
+
+.modal-content {
+    width: 60%;
+    float: left;
+}
+
+.modal-add {
+    width: 40%;
+    float: left;
+    border-left: 1px solid #dbdbdb;
+}
+
+.lb-content {
+    width: 130px;
+    text-align: left;
+}
+
+.ip-content {
+    width: 70%;
+    line-height: 26px;
+    text-align: left;
+    display: inline-block;
+    border: 1px solid #dbdbdb;
+}
+
+.body-content-checkbox,
+.body-content-modal {
+    margin-left: 30px;
+}

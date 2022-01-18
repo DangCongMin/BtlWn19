@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
 :root {
     --primary-color: #2daaed
 }
@@ -13,16 +12,18 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    
 }
 
-.app { 
+.app {
     margin: auto;
+}
 
+.flex {
+    display: flex;
 }
 
 .header {
-    justify-content: center !important ;
+    justify-content: center !important;
     display: flex;
     height: 55px;
     line-height: 55px;
@@ -33,7 +34,7 @@ body {
     width: 1200px;
     z-index: 99;
     background: #fff
-}   
+}
 
 .header-top {
     display: flex;
@@ -45,7 +46,6 @@ body {
     width: 64px;
     top: 50%;
     transform: translateY(-50%);
-    
 }
 
 .header-top__list {
@@ -60,12 +60,11 @@ body {
     position: relative;
 }
 
-
 .header-top__item .submenu {
-    position:  absolute;
+    position: absolute;
     width: 600px;
     border: 1px solid #ccc;
-    overflow: hidden; 
+    overflow: hidden;
     display: none;
     justify-content: space-between;
     padding: 10px 40px;
@@ -96,6 +95,7 @@ body {
 .header-top__item:hover .submenu {
     display: flex;
 }
+
 .submenu li {
     list-style: none;
 }
@@ -103,17 +103,16 @@ body {
 .header-top__item:first-child {
     color: var(--primary-color);
     padding-left: 16px;
-}   
+}
 
 .header-top__item:last-child {
-
     font-size: 26px;
     padding-top: 2px;
 }
+
 .header-top__item:hover {
     color: var(--primary-color);
     cursor: pointer;
-    
 }
 
 .submenu__item {
@@ -125,7 +124,6 @@ body {
 .submenu__item:hover {
     color: var(--primary-color);
     cursor: pointer;
-    
 }
 
 .header-content {
@@ -141,7 +139,7 @@ body {
     border: none;
     background-color: #f2f2f2;
     border-radius: 4px;
-    padding-left: 32px ;
+    padding-left: 32px;
 }
 
 .header-content__search i {
@@ -165,8 +163,7 @@ body {
     opacity: 0.8
 }
 
-
-.header-content__icon img{
+.header-content__icon img {
     height: 28px;
     width: 28px;
     margin-left: 10px
@@ -212,6 +209,7 @@ body {
     top: 50%;
     transform: translateY(-50%)
 }
+
 .ic_ketnoi {
     height: 32px;
     width: 32px;
@@ -221,13 +219,10 @@ body {
     text-decoration: none;
     color: #2daaed;
 }
+
+
 /* dung chung */
 
 .full {
     width: 100%;
 }
-
-
-
-
-
